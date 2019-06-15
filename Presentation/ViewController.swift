@@ -18,12 +18,14 @@ class ViewController: UIViewController {
     }
     
     func startPresentation() {
-        if let pageViewController = storyboard?.instantiateViewController(
-            withIdentifier: "PageViewController") as? PageViewController {
-            present(pageViewController, animated: true, completion: nil)
+        let userDefaults = UserDefaults.standard
+        let wasViewed = userDefaults.bool(forKey: "wasViewed")
+            if wasViewed == false {
+                if let pageViewController = storyboard?.instantiateViewController(
+                    withIdentifier: "PageViewController") as? PageViewController {
+                    present(pageViewController, animated: true, completion: nil)
+                }
         }
     }
-
-
 }
 
