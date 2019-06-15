@@ -14,6 +14,7 @@
 		BAAB968922B4DCCD0032EDA9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAAB968722B4DCCD0032EDA9 /* Main.storyboard */; };
 		BAAB968B22B4DCD10032EDA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAAB968A22B4DCD10032EDA9 /* Assets.xcassets */; };
 		BAAB968E22B4DCD10032EDA9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAAB968C22B4DCD10032EDA9 /* LaunchScreen.storyboard */; };
+		BAD7206F22B5517100811BD1 /* !description.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD7206E22B5517100811BD1 /* !description.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		BAAB968A22B4DCD10032EDA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BAAB968D22B4DCD10032EDA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BAAB968F22B4DCD10032EDA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAD7206E22B5517100811BD1 /* !description.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "!description.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 		BAAB968222B4DCCD0032EDA9 /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
+				BAD7206E22B5517100811BD1 /* !description.swift */,
 				BAAB968322B4DCCD0032EDA9 /* AppDelegate.swift */,
 				BAAB968522B4DCCD0032EDA9 /* ViewController.swift */,
 				BAAB968722B4DCCD0032EDA9 /* Main.storyboard */,
@@ -143,6 +146,7 @@
 			files = (
 				BAAB968622B4DCCD0032EDA9 /* ViewController.swift in Sources */,
 				BA8BB6E122B4E2EB009DAE1E /* ContentViewController.swift in Sources */,
+				BAD7206F22B5517100811BD1 /* !description.swift in Sources */,
 				BAAB968422B4DCCD0032EDA9 /* AppDelegate.swift in Sources */,
 				BA8BB6E322B4E338009DAE1E /* PageViewController.swift in Sources */,
 			);
